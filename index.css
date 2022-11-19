@@ -1,0 +1,123 @@
+html, body, h1, h2, h3, p, ul
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  font-family: sans-serif;
+}
+h1
+{
+  color: white;
+  font-family: sans-serif;
+}
+h3
+{
+  font-family: cursive;
+  color:  #7FFF00	;
+}
+h2{
+  font-family: cursive;
+}
+p{
+  font-family: cursive;
+  color:  #00BFFF;
+}
+
+.wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+
+/*HEADER*/
+header {
+  background-color: #333;
+  overflow: hidden;
+  padding: 15px 0;
+}
+
+#logo {
+  width: 200px;
+  color: #E4572E;
+  float: left;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  width: 70px;
+  padding: 12px 0;
+}
+
+nav {
+  float: right;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+/*SHOWCASE*/
+#showcase {
+  background-image: url(island.jpg);
+  padding: 250px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*NEWSLETTER*/
+#newsletter {
+  background-color:#ADFF2F;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/*BOX*/
+.box{
+  padding: 10px 10px 10px 10px;
+  background-color: rgba(225, 225 ,225 ,0.4);
+  border-radius: 20px;
+}
+.boxes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*OPTIONS*/
+#options img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+#options, #features {
+  text-align: center;
+  padding: 15px 0;
+  background-image: url(ssd.jfif);
+  background-size:cover;
+
+}
+
+#options a {
+  color: aqua;
+  text-decoration: none;
+  display: block;
+  width: 100px;
+  padding: 15px 0;
+  border: 2px solid #e4572e;
+  margin: 10px auto 0 auto;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: #ADFF2F;
+  padding: 15px 0;
+}
